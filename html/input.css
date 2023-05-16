@@ -1,0 +1,43 @@
+@config "./tailwind.config.js";
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Gotham_black";
+  src: url("./fonts/Gotham-Black.otf");
+}
+
+@font-face {
+  font-family: "Gotham_black_it";
+  src: url("./fonts/Gotham-BlackItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham_bold";
+  src: url("./fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "Gotham_bold_it";
+  src: url("./fonts/Gotham-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Gotham_book";
+  src: url("./fonts/Gotham-Book.otf");
+}
+
+@font-face {
+  font-family: "Gotham_book_it";
+  src: url("./fonts/Gotham-BookItalic.otf");
+}
+
+
+@font-face {
+  font-family: "Gotham_light";
+  src: url("./fonts/Gotham-Light.otf");
+}
