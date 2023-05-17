@@ -1,1 +1,0 @@
-# NYU-TIES_map
