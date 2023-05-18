@@ -28,11 +28,11 @@ function toggle_dropdown(button) {
 
   if (Text.style.display == "none") {
     Text.style.display = "block";
-    btnText.innerHTML = "↑";
+    btnText.innerHTML = "↑ Close Country Stats";
   }
   else {
     Text.style.display = "none";
-    btnText.innerHTML = "↓";
+    btnText.innerHTML = "↓ View Country Stats";
   }
 }
 

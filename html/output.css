@@ -580,11 +580,6 @@ video {
   margin-bottom: 3rem;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -609,6 +604,10 @@ video {
   height: auto;
 }
 
+.h-screen\/75 {
+  height: 75vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -619,12 +618,6 @@ video {
 
 .max-w-screen-lg {
   max-width: 1024px;
-}
-
-.border-spacing-1 {
-  --tw-border-spacing-x: 0.25rem;
-  --tw-border-spacing-y: 0.25rem;
-  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
 .transform {

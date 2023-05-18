@@ -9,42 +9,51 @@
 
 <body>
   <div class="font-gotham_black text-center text-xl mb-1 text-nyu-violet">South Sudan </div>
+  <div class="font-gotham_black text-center text-xl text-nyu-violet">
+
+    <iframe class="moreDetails w-full h-screen/75" src="https://data.unicef.org/country/ssd/" title="UN S. Sudan"
+      style="border:3px solid black">
+    </iframe>
+    <button onclick="toggle_dropdown(this)"
+      class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
+      ↓ View Country Stats</button>
+  </div>
   <div class="container my-12 mx-auto px-4 md:px-12">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-      <!-- Column -->
-      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-        <!-- CARD 2-->
-        <div class="relative max-w-screen-lg rounded overflow-hidden shadow-lg bg-light-grey container mx-auto px-md">
-          <div class="flow-root px-8 py-4">
-            <div class="font-gotham_black text-left text-xl mb-1 text-nyu-violet">Education Research in Conflict and
-              Protracted Crisis</div>
-            <!-- EDIT THIS TEXT-->
-            <div class="moreDetails font-gotham_book text-sm">
-              The ERICC Research Programme Consortium is a global research and learning partnership that strives to
-              transform education policy and practice in conflict and protracted crisis around the world, through
-              building a global hub for rigorous, context-relevant and actionable evidence base.
+      <!--
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">-->
+      <!-- CARD 2-->
+      <div class="relative max-w-screen-lg rounded overflow-hidden shadow-lg bg-light-grey container mx-auto px-md">
+        <div class="flow-root px-8 py-4">
+          <div class="font-gotham_black text-left text-xl mb-1 text-nyu-violet">Education Research in Conflict and
+            Protracted Crisis</div>
+          <!-- EDIT THIS TEXT-->
+          <div class="moreDetails font-gotham_book text-sm">
+            The ERICC Research Programme Consortium is a global research and learning partnership that strives to
+            transform education policy and practice in conflict and protracted crisis around the world, through
+            building a global hub for rigorous, context-relevant and actionable evidence base.
 
-              ERICC seeks to identify the most effective approaches for improving access, quality, and continuity of
-              education to support sustainable and coherent education systems and holistic learning and development of
-              children in conflict and crisis. ERICC aims to bridge research, practice, and policy with accessible and
-              actionable knowledge — at local, national, regional and global levels — through co-construction of
-              research and collaborative partnerships.
-              <br>
-              <a class="underline text-nyu-violet hover:text-light-violet-1 visited:text-dark-grey"
-                href="https://globaltiesforchildren.nyu.edu/ericc" target="_blank">
-                Learn more here.</a>
-            </div>
-
-            <!-- EDIT THE ID -->
-            <button onclick="toggle(this)"
-              class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
-              ↓ Read More</button>
+            ERICC seeks to identify the most effective approaches for improving access, quality, and continuity of
+            education to support sustainable and coherent education systems and holistic learning and development of
+            children in conflict and crisis. ERICC aims to bridge research, practice, and policy with accessible and
+            actionable knowledge — at local, national, regional and global levels — through co-construction of
+            research and collaborative partnerships.
+            <br>
+            <a class="underline text-nyu-violet hover:text-light-violet-1 visited:text-dark-grey"
+              href="https://globaltiesforchildren.nyu.edu/ericc" target="_blank">
+              Learn more here.</a>
           </div>
+
+          <!-- EDIT THE ID -->
+          <button onclick="toggle(this)"
+            class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
+            ↓ Read More</button>
         </div>
-        <!-- ^^ END CARD-->
       </div>
-      <!-- ^^ END COL-->
+      <!-- ^^ END CARD-->
+      <!--</div>
+      ^^ END COL-->
 
       <!-- Javascript code -->
       <script src="./button.js"></script>

@@ -9,41 +9,51 @@
 
 <body>
   <div class="font-gotham_black text-center text-xl mb-1 text-nyu-violet">Chad </div>
+  <div class="font-gotham_black text-center text-xl text-nyu-violet">
+
+    <iframe class="moreDetails w-full h-screen/75" src="https://data.unicef.org/country/tcd/" title="UN CHAD"
+      style="border:3px solid black">
+    </iframe>
+    <button onclick="toggle_dropdown(this)"
+      class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
+      ↓ View Country Stats</button>
+  </div>
+
   <div class="container my-12 mx-auto px-4 md:px-12">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
-      <!-- Column -->
-      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-        <!-- Card 1 -->
-        <div class="relative max-w-screen-lg rounded overflow-hidden shadow-lg bg-light-grey container mx-auto px-md">
-          <div class="flow-root px-8 py-4">
-            <div class="text-left text-xl mb-1 text-nyu-violet font-gotham_black">UNHCR Humanitarian Education
-              Accelerator
-            </div>
-
-            <!-- EDIT THIS TEXT: -->
-            <div class="moreDetails font-gotham_book text-sm">
-              Global TIES for Children is providing mentorship around all things measurement, monitoring, evaluation,
-              and learning to teams in the <a
-                class="underline text-nyu-violet hover:text-light-violet-1 visited:text-dark-grey"
-                href="https://www.unhcr.org/hea/" target="_blank">UNHCR Humanitarian Education Accelerator (HEA)</a> as
-              they move their education
-              innovations to scale.
-              <br>
-              <a class="underline text-nyu-violet hover:text-light-violet-1 visited:text-dark-grey"
-                href="https://globaltiesforchildren.nyu.edu/hea" target="_blank">
-                Learn more here.</a>
-            </div>
-
-            <!-- EDIT BUTTON ID -->
-            <button onclick="toggle(this)"
-              class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
-              ↓ Read More</button>
+      <!-- Column: deleted because only one card 
+      <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">-->
+      <!-- Card 1 -->
+      <div class="relative max-w-screen-lg rounded overflow-hidden shadow-lg bg-light-grey container mx-auto px-md">
+        <div class="flow-root px-8 py-4">
+          <div class="text-left text-xl mb-1 text-nyu-violet font-gotham_black">UNHCR Humanitarian Education
+            Accelerator
           </div>
+
+          <!-- EDIT THIS TEXT: -->
+          <div class="moreDetails font-gotham_book text-sm">
+            Global TIES for Children is providing mentorship around all things measurement, monitoring, evaluation,
+            and learning to teams in the <a
+              class="underline text-nyu-violet hover:text-light-violet-1 visited:text-dark-grey"
+              href="https://www.unhcr.org/hea/" target="_blank">UNHCR Humanitarian Education Accelerator (HEA)</a> as
+            they move their education
+            innovations to scale.
+            <br>
+            <a class="underline text-nyu-violet hover:text-light-violet-1 visited:text-dark-grey"
+              href="https://globaltiesforchildren.nyu.edu/hea" target="_blank">
+              Learn more here.</a>
+          </div>
+
+          <!-- EDIT BUTTON ID -->
+          <button onclick="toggle(this)"
+            class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
+            ↓ Read More</button>
         </div>
-        <!-- ^^ END CARD-->
       </div>
-      <!-- ^^ END COL -->
+      <!-- ^^ END CARD-->
+      <!-- </div>
+    ^^ END COL -->
 
       <!-- Javascript code -->
       <script src="./button.js"></script>

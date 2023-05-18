@@ -28,6 +28,15 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      height: {
+        'screen/90': '90vh',
+        'screen/75': '75vh',
+        'screen/50': '50vh',
+      },
+      width: {
+        'screen/90': '90vw',
+        'screen/50': '50vw',
       }
     }
   },
