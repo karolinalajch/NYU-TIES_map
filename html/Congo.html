@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="font-gotham_black text-center text-xl mb-1 text-nyu-violet">Democratic Republic of the Congo </div>
+  <div class="font-gotham_black text-center text-xl text-nyu-violet">
+
+    <iframe class="moreDetails w-full h-screen/75" src="https://data.unicef.org/country/cod/" title="UN CONGO"
+      style="border:2px solid #57068c">
+    </iframe>
+    <button onclick="toggle_dropdown(this)"
+      class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
+      ↓ View Country Stats</button>
+  </div>
+
+  <div class="container my-12 mx-auto px-4 md:px-12">
+    <div class="flex flex-wrap -mx-1 lg:-mx-4">
+
+      <!-- Column -->
+      <!-- CARD 2-->
+      <div class="relative max-w-screen-lg rounded overflow-hidden shadow-lg bg-light-grey container mx-auto px-md">
+        <div class="flow-root px-8 py-4">
+          <div class="font-gotham_black text-left text-xl mb-1 text-nyu-violet">3EA E-Cubed</div>
+          <!-- EDIT THIS TEXT-->
+          <div class="moreDetails font-gotham_book text-sm">
+
+            The 3EA E-Cubed project examines children's holistic learning and development as well as program
+            implementation in three crisis-affected contexts.
+            <br>
+            <br>
+            <a class="underline text-nyu-violet hover:text-light-violet-1 visited:text-dark-grey"
+              href="https://globaltiesforchildren.nyu.edu/ecubed" target="_blank">
+              Learn more here.</a>
+
+            <span id="dots"></span>
+            <span id="more" class="hidden"></span>
+          </div>
+
+          <!-- EDIT THE ID -->
+          <button onclick="toggle(this)"
+            class="font-gotham_book mt-3 px-0 py-2 bg-transparent text-nyu-violet duration-300">
+            ↓ Read More</button>
+        </div>
+      </div>
+      <!-- ^^ END CARD-->
+    </div>
+    <!-- ^^ END COL-->
+
+
+
+    <!-- Javascript code -->
+    <script src="./button.js"></script>
+
+</body>
+
+</html>
